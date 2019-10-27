@@ -1,0 +1,36 @@
+body {
+    background-image: url(wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2  {
+    color: rgba(255, 255, 255, 0.4);
+    font-family: Georgia cursive;
+    font-size: 50px;
+    font-style: italic;
+    width: 300px;
+    border: 5px solid rgba(0, 0, 0, 0.4);
+    margin-left: 600px;
+    text-align: center;
+    box-shadow: 4px 4px 5px grey;
+}
+
+img {
+    width: 400px;
+    height: 350px;
+    border: 5px solid rgba(255, 0, 0, 0.4);
+    margin-bottom: 20px;
+    margin-right: 20px;
+    transition: all 0.75s;
+}
+
+#images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img:hover {
+        transform: scale(2);
+}

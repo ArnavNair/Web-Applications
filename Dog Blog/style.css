@@ -1,0 +1,57 @@
+/* CSS for the Home page */
+
+body {
+  background: url(wallpaper.jpg);
+  background-size: cover;
+}
+
+nav{
+    font-family: "Times New Roman";
+    font-style: italic;
+    font-size: 40px;
+    color: white;
+    border: 3px solid red;
+    padding: 0px;
+    width: 400px;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    color: white;
+}
+
+h2{
+    clear: both;
+    background-color: rgba(0, 0, 255, 0.1);
+    color: red;
+    font-size: 50px;
+    border: 5px solid red;
+    padding: 10px 100px 10px 100px;
+    width: 400px;
+    margin: 0px 0px 10px 450px;
+    cursor: pointer;
+    text-align: center;
+}
+
+img{
+    float: left;
+    border: 3px solid red;
+    margin-right: 10px;
+}
+
+footer{
+    clear: both;
+    color: red;
+    font-size: 80px;
+    text-align: center;
+}
+
+p{
+    line-height: 50px;
+    font-style: italic;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Poiret One', cursive;
+    color: white;
+}
