@@ -1,0 +1,13 @@
+body {
+    background-image: url(wallpaper.jpg);
+    background-size: cover;
+}
+
+h2  {
+    color: white;
+    font-style: italic;
+    font-size: 400 px;
+    font-weight: bold;
+    font-family: Georgia;
+    text-align: center;
+}

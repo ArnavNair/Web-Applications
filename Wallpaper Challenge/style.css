@@ -1,0 +1,46 @@
+body {
+    background-image: url(wallpaper2.jpeg);
+}
+
+.col {
+    background-color: rgba(128,128,128, 0.3);
+    border: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+}
+
+.card-img-top{
+    border: 3px solid rgba(255, 0, 0, 0.5);
+}
+
+.btn-primary {
+    background-color: blue;
+}
+
+.btn-primary:hover {
+    background-color: rgba(0, 110, 0, 1);
+}
+
+.col a {
+    text-align: center;
+    padding-left: 100 px;
+}
+
+.links {
+    font-size: 50 px;
+    text-align: center;
+    font-style: italic;
+}
+
+.jumbotron {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+.winner {
+    display: flex;
+    justify-content: center;
+}
