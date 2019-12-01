@@ -1,0 +1,244 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+/* CSS for the Left Column of the Home Page */
+
+.left-col {
+    background-color: #e80707;
+    flex-basis: 30%;
+    height: 100%;
+    position: absolute;
+}
+
+.menu-icon {
+    cursor: pointer;
+    height: 40px;
+    margin: 5px 0 0 5px;
+    width: 40px;
+}
+
+.style-header {
+    font-size: 50px;
+    font-style: italic;
+    font-family: 'Pacifico', cursive;
+    color: rgba(255, 255, 255, 0.85);
+    height: 150px;
+    padding-top: 16px;
+    padding-left: 100px;
+    width: 200px;
+}
+
+.white-bar {
+    position: absolute;
+    height: 20px;
+    width: 400px;
+    background: #fff;
+    top: 200px;
+    right: 0;
+}
+
+.quote-text {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+    width: 400px;
+    margin-top: 60px;
+    margin-left: 80px;
+}
+
+.quote-text span {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+    width: 400px;
+    margin-top: 90px;
+    margin-left: 80px;
+    text-indent: 60px;
+}
+
+.fashion-image-1 {
+    position: absolute;
+    bottom: 20px;
+    right: -70px;
+}
+
+.fashion-image-1::after {
+    content: "\276f";
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    bottom: 120px;
+    left: -90px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 25px;
+    text-align: center;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    transform: rotate(-90deg);
+}
+
+.fashion-image-1::before {
+    content: "\276f";
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    bottom: 30px;
+    left: -90px;
+    color: rgba(255, 255, 255, 0.5);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    font-size: 25px;
+    text-align: center;
+    transform: rotate(90deg);
+}
+
+.line {
+    width: 2px;
+    height: 100px;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    right: -85px;
+    bottom: 35px;
+}
+
+.line::after {
+    content: "01/12";
+    position: absolute;
+    color: rgba(0, 0, 0, 0.6);
+    bottom: 125px;
+    right: -20px;
+    line-spacing: 1px;
+    transform: rotate(-90deg);
+}
+
+.vertical-menu {
+    position: absolute;
+    bottom: 250px;
+    left: -220px;
+    transform: rotate(-90deg);
+}
+
+.vertical-menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 5px 50px 40px 0;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+/* CSS for  the Right Column of the Home Page*/
+
+.right-col {
+    flex-basis: 70%;
+    height: 100%;
+    position: relative;
+}
+
+.navbar {
+    position: relative;
+    width: 800px;
+    left: 720px;
+    right: 45px;
+    top: 80px;
+    display: flex;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.navbar li{
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    list-style: none;
+    margin: 0 40px 20px 40px;
+}
+
+.search-icon {
+    margin: 0;
+    margin-top: 16px;
+    margin-right: 0px;
+    color: white;
+    background-color: white;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+
+.user-icon {
+    cursor: pointer;
+    height: 30px;
+    padding-right: 0;
+    margin-top: 16px;
+    margin-right: 0;
+    margin-left: 10px;
+    width: 30px;
+}
+
+.red-bar {
+    position: relative;
+    height: 20px;
+    width: 200px;
+    background-color: #e80707;
+    top: 126px;
+    left: 480px;
+}
+
+.menu-icon-2 {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    padding-left: 1420px;
+    padding-top: 55px;
+    padding-bottom: 5px;
+}
+
+.fashion-image-2 {
+    padding-left: 1055px;
+    padding-top: 0;
+    padding-bottom: 10px;
+}
+
+.bottom-bar {
+    width: 355px;
+    height: 0;
+    padding-top: 8px;
+    margin-left: 1100px;
+    background-color: #e80707;
+}
+
+.fashion-section h1 {
+    width: 200px;
+    height: 500px;
+    position: absolute;
+    font-size: 60px;
+    font-style: italic;
+    top: 29%;
+    left: 77.5%;
+    color: rgba(0, 0, 0, 0.5);
+    transform: rotate(-90deg);
+}
+
+.text-box {
+    font-style: oblique;
+    position: absolute;
+    font-size: 13px;
+    top: 33%;
+    left: 36%;
+    width: 400px;
+    color: rgba(0, 0, 0, 0.75);
+    padding-bottom: 10px;
+}
+
+.text-box span {
+    font-size: 40px;
+    font-weight: bold;
+}
