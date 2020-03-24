@@ -1,0 +1,3 @@
+This app allows the user to dynamically change the gradient of the background using a color palette.
+
+The aim was to implement event handling and DOM manipulation in JS.
